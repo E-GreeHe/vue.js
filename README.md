@@ -15,7 +15,8 @@ vue基础(vue1.0+)
 
 vue服务
 
-| --------- | --------- | --------- |
+|  |  |  |
+|  |  |  |
 | 自定义服务 |[查看效果](https://e-greehe.github.io/vue.js/指令服务过滤器/自定义服务.html)|[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/指令服务过滤器/自定义服务.html)|
 
 vue过滤器
@@ -27,25 +28,30 @@ vue过滤器
 
 vue自定义混合
 
-| --------- | --------- | --------- |
+|  |  |  |
+|  |  |  |
 | 自定义混合 |[查看效果](https://e-greehe.github.io/vue.js/指令服务过滤器/自定义混合.html)|[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/指令服务过滤器/自定义混合.html)|
 
 vue实现图灵机器人
 
-| --------- | --------- | --------- |
+|  |  |  |
+|  |  |  |
 | 图灵机器人 |[查看效果](https://e-greehe.github.io/vue.js/指令服务过滤器/图灵机器人.html)|[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/指令服务过滤器/图灵机器人.html)|
 
 vue图片加载(请求网页数据)
 
-| --------- | --------- | --------- |
+|  |  |  |
+|  |  |  |
 | vue网上图片预览 |[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/template/预览图片.html)|
 
 vue过渡
 
-| --------- | --------- | --------- |
+|  |  |  |
+|  |  |  |
 | 过渡 |[查看效果](https://e-greehe.github.io/vue.js/template/过度.html)|[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/template/过度.html)|
 
 vue + webpack
 
-| --------- | --------- | --------- |
+|  |  |  |
+|  |  |  |
 | vue + webpack |[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/webpack/public/index.html)|
