@@ -8,12 +8,12 @@
 	<link rel="stylesheet" href="css/weui.css" />
 
 	<body id="demo">
-		<e-article></e-article>
+		<earticle></earticle>
 	</body>
 	<script src="../js/vue.js"></script>
 	<script src="../js/jquery.js"></script>
 	<script>
-		var xarticle = Vue.extend({
+		var earticle = Vue.extend({
 			template: `
 				<article class="weui-article" v-for="news in newss">
 				    <section>
@@ -38,32 +38,36 @@
 				    </div>
 				</div>
 			`,
-			data:function(){
+			data: function() {
 				return {
-					newss:[],
-					isShowGallery:false,
-					picUrl:"",
+					newss: [],
+					isShowGallery: false,
+					picUrl: "",
 				}
 			},
-			methods:{
-				showGallery:function(url){
+			methods: {
+				showGallery: function(url) {
 					this.isShowGallery = true
 					console.log(url)
 					this.picUrl = url
 				}
 			},
-			ready:function(){
+			ready: function() {
 				$.ajax({
-					type:"GET",
-					url:"api.php",
-					data:{
-						page:1
+					type: "GET",
+					//					url:"api.php",
+					url: "http://route.showapi.com/197-1",
+					data: {
+						showapi_appid: '36257',
+						showapi_sign: 'fd06612e230d449294697a8bdf99242c',
+						num:"5",
+						page: 1
 					},
-					dataType:"json",
-					success:function(data){
+					dataType: "json",
+					success: function(data) {
 						console.log(data)
 						this.newss = data.showapi_res_body.newslist;
-						
+
 					}.bind(this)
 				})
 			}
@@ -74,7 +78,7 @@
 
 			},
 			components: {
-				eArticle: eArticle
+				earticle: earticle
 			},
 		})
 	</script>
