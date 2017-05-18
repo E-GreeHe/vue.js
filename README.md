@@ -55,3 +55,5 @@ vue + webpack
 | vue1.0+  |  |
 | --------- | --------- |
 | vue + webpack |[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/webpack/public/index.html)|
+
+vue1.0升级至2.0可查看官方文档  [vue2.0+](https://cn.vuejs.org/v2/guide/)
