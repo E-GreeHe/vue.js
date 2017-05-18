@@ -42,7 +42,7 @@ vue图片加载(请求网页数据)
 
 |  |  |  |
 | --------- | --------- | --------- |
-| vue网上图片预览 |[查看效果](https://e-greehe.github.io/vue.js/template/预览图片.html)|[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/template/预览图片.html)|
+| vue网上图片预览 |[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/template/预览图片.html)|
 
 vue过渡
 
