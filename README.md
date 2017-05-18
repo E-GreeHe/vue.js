@@ -40,8 +40,8 @@ vue实现图灵机器人
 
 vue图片加载(请求网页数据)
 
-| vue1.0+ |  |  |
-| --------- | --------- | --------- |
+| vue1.0+ |  |
+| --------- | --------- |
 | vue网上图片预览 |[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/template/预览图片.html)|
 
 vue过渡
@@ -52,6 +52,6 @@ vue过渡
 
 vue + webpack
 
-| vue1.0+  |  |  |
-| --------- | --------- | --------- |
+| vue1.0+  |  |
+| --------- | --------- |
 | vue + webpack |[查看code](https://github.com/E-GreeHe/vue.js/blob/gh-pages/webpack/public/index.html)|
